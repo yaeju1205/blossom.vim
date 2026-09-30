@@ -240,4 +240,7 @@ let g:terminal_color_13 = s:sr0
 let g:terminal_color_14 = s:pi0
 let g:terminal_color_15 = s:fg0
 
+" ---- plugins -----------------------------------------------------------------
+call s:hi('FoldColumn', s:bg3, 'NONE', '')
+
 delfunction s:hi
